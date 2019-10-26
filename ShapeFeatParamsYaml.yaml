@@ -1,0 +1,15 @@
+featureClass:
+  shape:
+  - MeshVolume
+  - SurfaceArea
+  - SurfaceVolumeRatio
+  - Maximum3DDiameter
+  - MajorAxisLength
+  - MinorAxisLength
+  - LeastAxisLength
+  - Elongation
+  - Flatness
+imageType:
+  Original: {}
+setting:
+  binWidth: 25

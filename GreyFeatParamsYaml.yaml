@@ -1,0 +1,79 @@
+featureClass:
+  firstorder:
+  - Energy
+  - Entropy
+  - 10Percentile
+  - 90Percentile
+  - Mean
+  - Median
+  - InterquartileRange
+  - RobustMeanAbsoluteDeviation
+  - Variance
+  - Skewness
+  - Kurtosis
+  - Uniformity
+  glcm:
+  - Autocorrelation
+  - JointAverage
+  - ClusterProminence
+  - ClusterShade
+  - ClusterTendency
+  - Contrast
+  - Correlation
+  - DifferenceAverage
+  - DifferenceEntropy
+  - DifferenceVariance
+  - JointEnergy
+  - JointEntropy
+  - Imc1
+  - MCC
+  - Idmn
+  - Idn
+  - MaximumProbability
+  - SumEntropy
+  - SumSquares
+  gldm:
+  - SmallDependenceEmphasis
+  - LargeDependenceEmphasis
+  - DependenceNonUniformityNormalized
+  - GrayLevelVariance
+  - DependenceVariance
+  - DependenceEntropy
+  glrlm:
+  - ShortRunEmphasis
+  - LongRunEmphasis
+  - RunLengthNonUniformityNormalized
+  - RunPercentage
+  - GrayLevelVariance
+  - RunVariance
+  - RunEntropy
+  - LowGrayLevelRunEmphasis
+  - HighGrayLevelRunEmphasis
+  - ShortRunLowGrayLevelEmphasis
+  - ShortRunHighGrayLevelEmphasis
+  - LongRunLowGrayLevelEmphasis
+  - LongRunHighGrayLevelEmphasis
+  glszm:
+  - SmallAreaEmphasis
+  - LargeAreaEmphasis
+  - SizeZoneNonUniformityNormalized
+  - ZonePercentage
+  - GrayLevelVariance
+  - ZoneVariance
+  - ZoneEntropy
+  - LowGrayLevelZoneEmphasis
+  - HighGrayLevelZoneEmphasis
+  - SmallAreaLowGrayLevelEmphasis
+  - SmallAreaHighGrayLevelEmphasis
+  - LargeAreaLowGrayLevelEmphasis
+  - LargeAreaHighGrayLevelEmphasis
+  ngtdm:
+  - Coarseness
+  - Contrast
+  - Busyness
+  - Complexity
+  - Strength
+imageType:
+  Original: {}
+setting:
+  binWidth: 25
